@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-	<groupId>jp.te4a.spring.boot.mybootapp6</groupId>
-	<artifactId>mybootapp6</artifactId>
+	<groupId>jp.te4a.spring.boot.mybootapp7</groupId>
+	<artifactId>mybootapp7</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
   
@@ -16,7 +16,7 @@
 	<relativePath/> <!-- lookup parent from repository -->
   </parent>
 
-  <name>mybootapp5</name>
+  <name>mybootapp7</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -27,12 +27,6 @@
   </properties>
 
   <dependencies>
-	<dependency>
-		<groupId>org.apache.tomcat.embed</groupId>
-		<artifactId>tomcat-embed-jasper</artifactId>
-		<version>10.1.24</version>
-	</dependency>
-
  	<dependency>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-web</artifactId>
@@ -50,6 +44,11 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-thymeleaf</artifactId>
+ 	</dependency>
   </dependencies>
 
 	<build>
