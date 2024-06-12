@@ -1,6 +1,7 @@
-package jp.te4a.spring.boot.mybootapp8;
+package jp.te4a.spring.boot.mybootapp9;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 @Data
 @NoArgsConstructor
 public class BookForm {
