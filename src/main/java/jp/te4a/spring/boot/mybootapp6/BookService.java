@@ -1,3 +1,4 @@
+package jp.te4a.spring.boot.mybootapp6;
 @Service
 public class BookService {
     @Autowired

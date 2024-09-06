@@ -1,3 +1,4 @@
+package jp.te4a.spring.boot.mybootapp6;
 @Repository
 public class BookRepository {
     private final ConcurrentMap<Integer, BookBean> bookMap
